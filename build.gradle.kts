@@ -4,6 +4,7 @@ plugins {
   alias(libs.plugins.spotless)
   alias(libs.plugins.kotlin.jvm)
   alias(libs.plugins.detekt)
+  id("maven-publish")
 }
 
 apply(plugin = "base")
