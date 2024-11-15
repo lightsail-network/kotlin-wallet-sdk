@@ -152,9 +152,9 @@ publishing {
     }
   }
 
-  apply<SigningPlugin>()
-  configure<SigningExtension> {
-    useGpgCmd()
-    sign(publishing.publications)
-  }
+//  apply<SigningPlugin>()
+//  configure<SigningExtension> {
+//    useGpgCmd()
+//    sign(publishing.publications)
+//  }
 }
